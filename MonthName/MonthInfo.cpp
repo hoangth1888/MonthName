@@ -8,7 +8,7 @@ std::string MonthInfo::getFullMonthName(int month) {
     };
 
     if (month < 1 || month > 12) {
-        throw std::out_of_range("Invalid month number. Please enter a number between 1 and 12.");
+        throw std::out_of_range("Incorrect month number. Please enter a number between 1 and 12.");
     }
 
     return months[month - 1];
