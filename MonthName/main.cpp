@@ -3,8 +3,8 @@
 
 int main() {
     int month_number;
-
-    std::cout << "Month Name Generate1";
+    
+    std::cout << "Generate month name1";
     std::cout << "Enter month number (1-12): ";
     std::cin >> month_number;
 
