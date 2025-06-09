@@ -4,7 +4,7 @@
 int main() {
     int month_number;
     
-    std::cout << "Generate month name1";
+    std::cout << "Generate month name12";
     std::cout << "Enter month number (1-12): ";
     std::cin >> month_number;
 
