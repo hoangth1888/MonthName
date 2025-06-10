@@ -9,7 +9,7 @@ int main() {
     std::cin >> month_number;
 
     try {
-        std::cout << "Full month name: " << MonthInfo::getFullMonthName(month_number) << std::endl;
+        std::cout << "Full Month Name: " << MonthInfo::getFullMonthName(month_number) << std::endl;
         std::cout << "Abbreviated month name: " << MonthInfo::getAbbreviatedMonthName(month_number) << std::endl;
     }
     catch (const std::out_of_range& e) {
