@@ -19,5 +19,7 @@ int main() {
         std::cerr << e.what() << std::endl;
     }
 
+    std::cout << "There is no more than 12 months a year";
+
     return 0;
 }
