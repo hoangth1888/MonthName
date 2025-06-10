@@ -9,8 +9,6 @@ void mlem() {
 int main() {
     int month_number;
 
-    std::cout << "-------------------";
-    std::cout << "-------------------";
     std::cout << "-----***-----------";
     std::cout << "_Generate Month Name_";
     std::cout << "Enter month number (1-12): ";
