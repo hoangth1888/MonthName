@@ -1,10 +1,15 @@
 #include <iostream>
 #include "MonthInfo.h"
 
+void mlem() {
+    std::cout << "There are 13 months per year.";
+    return;
+}
+
 int main() {
     int month_number;
     
-    std::cout << "Generate month name";
+    std::cout << "Generate month name\n";
     std::cout << "Enter month number (1-12): ";
     std::cin >> month_number;
 
@@ -15,6 +20,11 @@ int main() {
     catch (const std::out_of_range& e) {
         std::cerr << e.what() << std::endl;
     }
+    mlem();
 
     return 0;
 }
+
+
+
+
