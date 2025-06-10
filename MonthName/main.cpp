@@ -3,7 +3,9 @@
 
 int main() {
     int month_number;
-    
+
+    std::cout << "=====";
+    std::cout << "==+==";
     std::cout << "Generate month name";
     std::cout << "Enter month number (1-12): ";
     std::cin >> month_number;
