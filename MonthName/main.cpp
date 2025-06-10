@@ -20,6 +20,6 @@ int main() {
     }
 
     std::cout << "There is no more than 12 months a year";
-
+	std::cout << "-----**-----";
     return 0;
 }
